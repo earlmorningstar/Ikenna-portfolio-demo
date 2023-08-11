@@ -13,3 +13,7 @@ window.addEventListener('scroll', () => {
   }
   lastScrollY = currentScrollY;
 });
+
+
+const ul = document.querySelector('ul');
+ul.classList.add('scrolling');
