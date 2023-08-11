@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Noto+Sans+JP:wght@100;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: transparent;
+    transition: #014040cf 0.3s ease;
+    /* height: 90%; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cole-logo {
+    font-size: 50PX;
+    font-weight: 900px;
+    font-family: 'Vina Sans', cursive;
+}
+
+.nav-list {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 100px 40px 0 40px;
+}
+
+.hello {
+    font-family: 'Poppins', sans-serif;
+    font-size: 170px;
+    color: #000000;
+}
+
+.lo-text {
+    color: #00BABA;
+}
+
+.hero-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Noto Sans Cypro Minoan', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Playfair Display', serif; */
+/* font-family: 'Vina Sans', cursive; */
