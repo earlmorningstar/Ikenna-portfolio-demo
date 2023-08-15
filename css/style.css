@@ -94,14 +94,18 @@ li {
   display: inline-block;
   margin-right: 20px;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
+  color: #00baba;
+}
+
+.ri-circle-fill {
   color: #00baba;
 }
 
 .scrolling {
   transform: translateX(-100%);
-  animation: scrollAnimation 100s linear infinite;
+  animation: scrollAnimation 30s linear infinite;
 }
 
 @keyframes scrollAnimation {
@@ -111,6 +115,44 @@ li {
   100% {
     transform: translateX(-100%);
   }
+}
+
+.reach-resume-div {
+  position: relative;
+  top: -30px;
+  display: flex;
+  gap: 10px;
+  margin-left: 110px;
+}
+
+.reach-resume {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  gap: 5px;
+  border: 2px solid #00baba;
+  padding: 8px 16px;
+  max-width: 180px;
+  background-color: #00baba;
+  color: #ffffff;
+}
+
+.ri-arrow-right-up-line {
+  width: 1em;
+  height: 1em;
+}
+
+#my-resume {
+  background-color: transparent;
+  color: #00baba;
+}
+
+.big-project-div {
+  font-family: "Poppins", sans-serif;
+  font-size: 130px;
+  color: #00baba;
 }
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
