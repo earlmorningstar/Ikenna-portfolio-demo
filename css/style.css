@@ -186,6 +186,7 @@ li {
   display: flex;
   gap: 10px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .img-and-text-div {
@@ -219,6 +220,10 @@ li {
   top: 30px;
 }
 
+#fourth-sec-text-div-id {
+  gap: 50px;
+}
+
 .bolded-text {
   font-family: "Poppins", sans-serif;
   font-size: 33px;
@@ -234,6 +239,53 @@ li {
 
 .lang-info {
   font-family: "Roboto", sans-serif;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.both-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.about-me-div {
+  padding: 0 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #00baba;
+  line-height: 56px;
+}
+
+.about-me-info {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.mail {
+  font-size: 17px;
+  font-weight: 600;
+  color: #00baba;
+  text-decoration: none;
+}
+
+.about-me-icon-list {
+  display: flex;
+  gap: 20px;
+}
+
+.about-icon {
+  font-size: 40px;
+  color: #00baba;
+  text-decoration: none;
 }
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
