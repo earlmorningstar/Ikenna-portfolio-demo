@@ -255,6 +255,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 40px;
 }
 
 .name {
@@ -286,6 +287,63 @@ li {
   font-size: 40px;
   color: #00baba;
   text-decoration: none;
+}
+
+.blog-div {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 110px 60px 110px;
+}
+
+.blog-and-info {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.blog-bolded-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 140px;
+}
+
+.name-deco {
+  text-decoration: underline;
+}
+
+.blog-image {
+  width: 320px;
+  height: 20em;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+}
+
+.all-blog-info {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 20px;
+}
+
+.blog-slide {
+  position: relative;
+}
+
+.blog-text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 60px;
+  position: absolute;
+  top: 30px;
+  padding: 0 20px;
+}
+
+.date {
+  font-weight: 300;
+  font-size: 14px;
 }
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
