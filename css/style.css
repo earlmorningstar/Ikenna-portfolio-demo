@@ -325,6 +325,7 @@ li {
   font-family: "Poppins", sans-serif;
   display: flex;
   gap: 20px;
+  margin-bottom: 50px;
 }
 
 .blog-slide {
@@ -344,6 +345,26 @@ li {
 .date {
   font-weight: 300;
   font-size: 14px;
+}
+
+.link-and-icon {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+
+.view-more-btn {
+  border: 2px solid #00baba;
+  background-color: #00baba;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 8px 50px;
+}
+
+.view-more-btn-div {
+  text-align: center;
 }
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
