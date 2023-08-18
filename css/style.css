@@ -384,7 +384,9 @@ li {
   background-color: #f5f5f5;
   padding: 30px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .news-letter-whitebk {
@@ -397,6 +399,7 @@ li {
   width: 40em;
   border: 1px solid rgb(223, 222, 222);
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 .newsletter-header {
@@ -482,7 +485,7 @@ li {
 
 .built-with-div:hover {
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .covertkit-span {
@@ -493,6 +496,31 @@ li {
 .covertkit-img {
   width: 100%;
   height: 100%;
+}
+
+#x-axis-line-id {
+  width: 84%;
+}
+
+.footer {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 215px;
+}
+
+.creators-and-rights {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #6B7280;
+}
+
+.tech-names {
+  font-weight: 700;
 }
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
